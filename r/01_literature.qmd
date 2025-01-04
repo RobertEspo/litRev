@@ -1,0 +1,19 @@
+---
+title: "literature"
+author: "Robert Esposito"
+format: html
+---
+
+```{r, libs}
+
+```
+
+```{r, load-data}
+bib_file <- here("bibtex","neuro_bib.bib")
+bib_data <- read.bib(file = bib_file,
+                     package = "bibtex",
+                     encoding = "UTF-8")
+
+
+```
+
