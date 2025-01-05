@@ -15,6 +15,7 @@ convert_to_df <- function(bib_file) {
   # Convert each entry to a df and add file name as a new column
   entry_dfs <- lapply(bib_data, function(entry) {
     entry_df <- as.data.frame(as.list(entry), stringsAsFactors = FALSE)
+    entry_df <- rownames_to_column(entry_df, var = "key")  # Add row names as a new column
     entry_df$project <- file_name  # Add the project (file name)
     return(entry_df)
   })
@@ -27,10 +28,16 @@ convert_to_df <- function(bib_file) {
 all_entries <- lapply(bib_files, convert_to_df)
 
 # Combine all dfs from all .bib files into one data frame
-combined_df <- bind_rows(all_entries)
-
-# Group by the reference and combine the project names
-lit_df <- combined_df %>%
-  group_by(title) %>%
+lit_df <- bind_rows(all_entries) %>%
+  group_by(key) %>%  # Group by key instead of title
   mutate(project = paste(unique(project), collapse = ", ")) %>%
-  ungroup()
+  ungroup() %>%
+  distinct()
+
+# Extract unique project names
+all_projects <- lit_df %>%
+  pull(project) %>%
+  str_split(",\\s*") %>%  # Split by commas with optional spaces
+  unlist() %>%  # Flatten the list
+  unique() %>%  # Get unique values
+  sort()  # Sort alphabetically
