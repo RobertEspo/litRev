@@ -1,6 +1,6 @@
 # LitRev
 Author: Robert Esposito
-Date: `r Sys.Date()` 
+Last updated: Jan 7, 2025
 
 This shiny app helps to aggregate and organize references and summaries for literature reviews across various projects.
 
