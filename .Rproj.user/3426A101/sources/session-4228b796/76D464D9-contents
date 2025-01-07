@@ -1,0 +1,417 @@
+# Load required libraries
+source(here::here("r", "00_libs.R"))
+source(here::here("r","01_load_data.R"))
+
+# Function to load and split summaries.txt
+split_summaries <- function(file_path, output_dir) {
+  summaries <- readLines(file_path)
+  key <- NULL
+  title <- NULL
+  author <- NULL
+  summary_content <- NULL
+  
+  for (line in summaries) {
+    if (startsWith(line, "#")) {  # Check if it's a heading
+      if (!is.null(key)) {
+        # Save the previous summary content to a file (without title and author)
+        writeLines(summary_content, file.path(output_dir, paste0(key, ".txt")))
+      }
+      # Update key and reset summary_content
+      key <- gsub("^#\\s*", "", line)
+      summary_content <- NULL
+    } else if (startsWith(line, "Title:")) {
+      # Extract title if line starts with "Title:"
+      title <- gsub("^Title:\\s*", "", line)
+    } else if (startsWith(line, "Author:")) {
+      # Extract author if line starts with "Author:"
+      author <- gsub("^Author:\\s*", "", line)
+    } else {
+      summary_content <- c(summary_content, line)
+    }
+  }
+  
+  # Save the last summary
+  if (!is.null(key)) {
+    writeLines(summary_content, file.path(output_dir, paste0(key, ".txt")))
+  }
+}
+
+# Define the UI
+ui <- dashboardPage(
+  dashboardHeader(title = "Literature Review", titleWidth = 300),
+  dashboardSidebar(
+    sidebarMenu(
+      menuItem("Home", tabName = "home", icon = icon("home")),
+      menuItem("Summaries", tabName = "summaries", icon = icon("file-alt"))
+    )
+  ),
+  dashboardBody(
+    tags$head(
+      tags$script(HTML("
+        document.addEventListener('DOMContentLoaded', function() {
+          document.querySelectorAll('details').forEach(function(detail) {
+            detail.addEventListener('toggle', function() {
+              var summary = detail.querySelector('summary');
+              if (detail.open) {
+                summary.querySelector('.indicator').textContent = '▼';
+              } else {
+                summary.querySelector('.indicator').textContent = '▶';
+              }
+            });
+          });
+        });
+      ")),
+      tags$style(HTML("
+        .summary-item {
+          background-color: #f9f9f9;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          padding: 15px;
+          margin-bottom: 15px;
+          resize: both; /* Allow resizing of the boxes */
+          overflow: auto; /* Ensure content is scrollable if it overflows */
+          word-break: break-word; /* Ensure words do not split awkwardly */
+          width: 50%; /* Set initial width to 50% of the page */
+        }
+        .summary-item h4, .summary-item p {
+          margin: 0;
+        }
+        .summary-item details {
+          margin-top: 10px;
+        }
+        .summary-item summary {
+          cursor: pointer;
+          font-weight: bold;
+        }
+        .summary-item .indicator {
+          margin-right: 5px;
+        }
+        .summary-item pre {
+          white-space: pre-wrap; /* Preserve line breaks and spaces */
+          word-break: break-word; /* Ensure words do not split awkwardly */
+        }
+      "))
+    ),
+    tabItems(
+      tabItem(tabName = "home",
+              tags$head(
+                tags$style(HTML("
+            .grid-container {
+              display: grid;
+              grid-template-columns: 1fr 1fr; /* Two columns */
+              grid-template-rows: 1fr 1fr; /* Two rows */
+              gap: 20px;
+              height: calc(100vh - 50px);
+            }
+            .search-box, .references-box, .summary-box, .add-bibtex {
+              background-color: #FFFFFF;
+              border-radius: 10px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              padding: 15px;
+            }
+            .summary-box {
+              grid-column: 1 / 2; /* First column */
+              grid-row: 1 / 2; /* First row */
+            }
+            .add-bibtex {
+              grid-column: 2 / 3; /* Second column */
+              grid-row: 1 / 2; /* First row */
+            }
+            .search-box {
+              grid-column: 1 / 2; /* First column */
+              grid-row: 2 / 3; /* Second row */
+            }
+            .references-box {
+              grid-column: 2 / 3; /* Second column */
+              grid-row: 2 / 3; /* Second row */
+            }
+            .box-title {
+              font-family: 'Arial', sans-serif;
+              font-weight: bold;
+              color: #CC0033;
+              margin-bottom: 10px;
+            }
+            .action-button {
+              background-color: #CC0033;
+              color: white;
+              border: none;
+              border-radius: 5px;
+              padding: 10px 20px;
+              margin-top: 10px;
+              cursor: pointer;
+            }
+            .action-button:hover {
+              background-color: #990026;
+            }
+            .summary-box textarea {
+              width: 100%;
+              box-sizing: border-box;
+            }
+            body, label, input, button, select, textarea, .box-title, .dataTables_wrapper {
+              color: #000000;
+            }
+            /* Header styling */
+            .skin-blue .main-header .logo {
+              background-color: #CC0033;
+              color: #000000;
+              font-weight: bold;
+            }
+            .skin-blue .main-header .navbar {
+              background-color: #CC0033;
+            }
+          "))
+              ),
+              div(class = "grid-container",
+                  div(class = "summary-box",
+                      div(class = "box-title", "Summary"),
+                      textOutput("selected_summary_key"),
+                      textOutput("selected_summary_title"),
+                      textOutput("selected_summary_author"),
+                      textAreaInput("summary_text", "", "", rows = 10),
+                      actionButton("save_summary", "Save Summary", class = "action-button"),
+                      actionButton("combine_summaries", "Combine Summaries", class = "action-button"),
+                      downloadButton("download_summaries", "Download Summaries", 
+                                     style = "margin-top: 10px; background-color: #CC0033; color: white; border: none; border-radius: 5px; padding: 10px 20px;")
+                  ),
+                  div(class = "add-bibtex",
+                      div(class = "box-title", "Add BibTeX"),
+                      selectInput("bib_file", "Select BibTeX File:", choices = bib_file_names),
+                      textAreaInput("bibtex_entry", "Paste BibTeX Entry Here:", "", rows = 10),
+                      actionButton("add_bibtex", "Add BibTeX", class = "action-button")
+                  ),
+                  div(class = "search-box",
+                      div(class = "box-title", "Search & Filter"),
+                      textInput("search_title", "Search Title:", ""),
+                      textInput("search_author", "Search Author:", ""),
+                      selectInput("search_project", "Filter by Project:", 
+                                  choices = c("All Projects" = "", all_projects), 
+                                  selected = ""),
+                      actionButton("reset_filters", "Reset Filters", class = "action-button")
+                  ),
+                  div(class = "references-box",
+                      div(class = "box-title", "References"),
+                      DTOutput("lit_table"), style = "height: 600px; overflow-y: auto;"
+                  )
+              )
+      ),
+      tabItem(tabName = "summaries",
+              div(class = "summaries-container",
+                  div(class = "box-title", "Summaries"),
+                  selectInput("filter_project", "Filter by Project:", 
+                              choices = c("All Projects" = "", all_projects), 
+                              selected = ""),
+                  uiOutput("summary_list")
+              )
+      )
+    )
+  )
+)
+
+# Define the server
+server <- function(input, output, session) {
+  
+  # Run split_summaries() to split summaries.txt into individual files in the "all_summaries" folder
+  split_summaries(here("summaries", "summaries.txt"), here("summaries", "all_summaries"))
+  
+  # Make the "pdfs" folder accessible via the URL "/pdfs"
+  addResourcePath("pdfs", "pdfs")
+  
+  # Reactive value to keep track of the currently selected reference
+  current_ref <- reactiveVal(NULL)
+  
+  # Reactive to filter the data frame
+  filtered_data <- reactive({
+    df <- lit_df
+    
+    # Filter by title
+    if (input$search_title != "") {
+      df <- df[grepl(input$search_title, df$title, ignore.case = TRUE), ]
+    }
+    
+    # Filter by author
+    if (input$search_author != "") {
+      df <- df[grepl(input$search_author, df$author, ignore.case = TRUE), ]
+    }
+    
+    # Filter by project
+    if (input$search_project != "") {
+      df <- df[grepl(input$search_project, df$project, ignore.case = TRUE), ]
+    }
+    
+    df
+  })
+  
+  # Reset filters when the reset button is clicked
+  observeEvent(input$reset_filters, {
+    updateTextInput(session, "search_title", value = "")
+    updateTextInput(session, "search_author", value = "")
+    updateSelectInput(session, "search_project", selected = "")
+  })
+  
+  # Render the data table
+  output$lit_table <- renderDT({
+    
+    # Get the column indices for the desired columns
+    visible_columns <- which(names(filtered_data()) %in% c("title", "author", "year", "project")) - 1
+    
+    # Create clickable links in the title column for PDFs
+    filtered_data <- filtered_data() %>% 
+      mutate(title = paste0('<a href="pdfs/', key, '.pdf" target="_blank">', title, '</a>'))
+    
+    datatable(
+      filtered_data,
+      options = list(
+        pageLength = 10,
+        autoWidth = TRUE,
+        columnDefs = list(
+          # Hide the key column
+          list(visible = TRUE, targets = visible_columns),
+          list(visible = FALSE, targets = "_all")  # Hide all other columns
+        ),
+        dom = 'Bfrtip',
+        buttons = c('colvis')
+      ),
+      escape = FALSE,  # Allow HTML rendering (for clickable links)
+      rownames = FALSE,
+      extensions = 'Buttons',
+      selection = 'single'  # Enable single row selection
+    )
+  })
+  
+  # Observe row selection
+  observeEvent(input$lit_table_rows_selected, {
+    selected_row <- input$lit_table_rows_selected
+    if (length(selected_row) > 0) {
+      
+      # Save the current summary before switching to a new one
+      if (!is.null(current_ref())) {
+        summary_file <- file.path("summaries", "all_summaries", paste0(current_ref(), ".txt"))
+        writeLines(input$summary_text, summary_file)
+        showNotification("Summary saved successfully!", type = "message")
+      }
+      
+      selected_key <- filtered_data()[selected_row, "key"]
+      current_ref(selected_key)  # Update the currently selected reference
+      
+      selected_title <- filtered_data()[selected_row, "title"]
+      selected_author <- filtered_data()[selected_row, "author"]
+      output$selected_summary_key <- renderText({ paste("Key:", selected_key) })
+      output$selected_summary_title <- renderText({ paste("Title:", selected_title) })
+      output$selected_summary_author <- renderText({ paste("Author(s):", selected_author) })
+      
+      summary_file <- file.path("summaries", "all_summaries", paste0(selected_key, ".txt"))
+      if (file.exists(summary_file)) {
+        summary_content <- readLines(summary_file)
+        updateTextAreaInput(session, "summary_text", value = paste(summary_content, collapse = "\n"))
+      } else {
+        updateTextAreaInput(session, "summary_text", value = "")
+      }
+    }
+  })
+  
+  # Save summary when the save button is clicked
+  observeEvent(input$save_summary, {
+    if (!is.null(current_ref())) {
+      
+      summary_file <- file.path("summaries", "all_summaries", paste0(current_ref(), ".txt"))
+      
+      writeLines(input$summary_text, summary_file)
+      showNotification("Summary saved successfully!", type = "message")
+    }
+  })
+  
+  # Combine summaries
+  observeEvent(input$combine_summaries, {
+    summary_files <- list.files(file.path("summaries", "all_summaries"), full.names = TRUE)
+    combined_summaries <- lapply(summary_files, function(file) {
+      
+      # Retrieve key from file name
+      key <- gsub(".txt$", "", basename(file))
+      
+      # Retrieve title and author from lit_df
+      title <- lit_df %>% filter(key == !!key) %>% pull(title)
+      author <- lit_df %>% filter(key == !!key) %>% pull(author)
+      
+      # Handle cases where title or author is missing
+      title <- ifelse(length(title) > 0, title, "Unknown Title")
+      author <- ifelse(length(author) > 0, author, "Unknown Author")
+      
+      c(paste0("# ", key), paste0("Title: ", title), paste0("Author: ", author), readLines(file), "")
+    })
+    
+    combined_summaries <- unlist(combined_summaries)
+    writeLines(combined_summaries, here("summaries", "summaries.txt"))
+    showNotification("Summaries combined successfully!", type = "message")
+  })
+  
+  # Download summaries
+  output$download_summaries <- downloadHandler(
+    filename = function() { "summaries.txt" },
+    content = function(file) {
+      file.copy(here("summaries", "summaries.txt"), file)
+    }
+  )
+  
+  # Add BibTeX entry
+  observeEvent(input$add_bibtex, {
+    # Construct the file path
+    bib_entry <- input$bibtex_entry
+    file_path <- here("bibtex", input$bib_file)
+    
+    # Append the BibTeX entry to the selected file with a line break
+    if (bib_entry != "") {
+      tryCatch({
+        # Open the file in append mode
+        con <- file(file_path, "a")
+        # Write the entry with a newline before it
+        writeLines(paste0("\n\n", bib_entry), con)
+        # Close the file connection
+        close(con)
+        showNotification("BibTeX entry added successfully!", type = "message")
+        
+        # Source data to update lit_df
+        source(here("r","01_load_data.R"))
+        # Update reactive df
+        lit_df <- get("lit_df", envir = .GlobalEnv)
+        
+      }, error = function(e) {
+        showNotification("An error occurred while adding the BibTeX entry.", type = "error")
+      })
+    } else {
+      showNotification("Please select a BibTeX file and enter a BibTeX entry.", type = "error")
+    }
+  })
+  
+  # Render the summary list
+  output$summary_list <- renderUI({
+    summaries <- list.files(file.path("summaries", "all_summaries"), full.names = TRUE)
+    
+    filtered_summaries <- summaries
+    if (input$filter_project != "") {
+      filtered_keys <- lit_df %>% filter(project == input$filter_project) %>% pull(key)
+      filtered_summaries <- summaries[basename(summaries) %in% paste0(filtered_keys, ".txt")]
+    }
+    
+    summary_ui <- lapply(filtered_summaries, function(file) {
+      key <- gsub(".txt$", "", basename(file))
+      title <- lit_df %>% filter(key == !!key) %>% pull(title)
+      author <- lit_df %>% filter(key == !!key) %>% pull(author)
+      summary_content <- readLines(file)
+      
+      div(class = "summary-item",
+          tags$h4(paste("Key:", key)),
+          tags$p(paste("Title:", title)),
+          tags$p(paste("Author(s):", author)),
+          tags$details(
+            tags$summary(
+              tags$span(class = "indicator", "▶"),
+              tags$span(" Summary")
+            ),
+            tags$pre(paste(summary_content, collapse = "\n"))
+          )
+      )
+    })
+    
+    do.call(tagList, summary_ui)
+  })
+}

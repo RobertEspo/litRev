@@ -1,0 +1,103 @@
+# Load .bib directory
+bib_directory <- here("bibtex")
+
+# List .bib files in directory
+bib_files <- list.files(bib_directory, pattern = ".bib$", full.names = TRUE)
+
+# Extract file names with suffixes from paths
+bib_file_names <- basename(bib_files)
+
+# Function to convert .bib files to a data frame
+convert_to_df <- function(bib_file) {
+  # Read the .bib file
+  bib_data <- ReadBib(bib_file)
+  
+  # Get the base name of the file
+  file_name <- tools::file_path_sans_ext(basename(bib_file))
+  
+  # Convert each entry to a df and add file name as a new column
+  entry_dfs <- lapply(bib_data, function(entry) {
+    entry_df <- as.data.frame(as.list(entry), stringsAsFactors = FALSE)
+    entry_df <- rownames_to_column(entry_df, var = "key")  # Add row names as a new column
+    entry_df$project <- file_name  # Add the project (file name)
+    return(entry_df)
+  })
+  
+  # Combine the dfs
+  bind_rows(entry_dfs)
+}
+
+# Process .bib directory
+all_entries <- lapply(bib_files, convert_to_df)
+
+# Combine all dfs from all .bib files into one df
+lit_df <- bind_rows(all_entries) %>%
+  group_by(key) %>%  # Group by key instead of title
+  mutate(project = paste(unique(project), collapse = ", ")) %>%
+  ungroup() %>%
+  distinct()
+
+# Extract unique project names
+all_projects <- lit_df %>%
+  pull(project) %>%
+  str_split(",\\s*") %>%  # Split by commas with optional spaces
+  unlist() %>%  # Flatten the list
+  unique() %>%  # Get unique values
+  sort()  # Sort alphabetically
+
+# Function to create df of BibTeX loading errors
+load_bibtex_with_errors <- function(bib_file) {
+  errors <- data.frame(
+    line = integer(),
+    key = character(),
+    error = character(),
+    project = character(),
+    stringsAsFactors = FALSE
+  )
+  
+  # Function to capture warnings and messages
+  capture_warnings <- function(w) {
+    # Extract the message
+    message_text <- conditionMessage(w)
+    
+    # Regular expression to capture the key, line number, and error message
+    regex <- "Ignoring entry '([^']+)'\\s*\\(line(\\d+)\\)\\s*because:\\s*(.+)"
+    
+    if (grepl(regex, message_text)) {
+      key <- sub(regex, "\\1", message_text)
+      line <- as.integer(sub(regex, "\\2", message_text))
+      error_message <- sub(regex, "\\3", message_text)
+      
+      # Add to the errors data frame
+      errors <<- rbind(errors, data.frame(
+        line = line,
+        key = key,
+        error = error_message,
+        project = basename(bib_file),  # Add the project column with the file name
+        stringsAsFactors = FALSE
+      ))
+    }
+  }
+  
+  # Use tryCatch and withCallingHandlers to capture warnings and errors
+  tryCatch({
+    withCallingHandlers({
+      # Attempt to read the BibTeX file
+      bib_entries <- ReadBib(bib_file)
+    }, warning = capture_warnings, message = capture_warnings)
+  }, error = function(e) {
+    # Capture any errors during reading the BibTeX file
+    errors <<- rbind(errors, data.frame(
+      line = NA,
+      key = "N/A",
+      error = conditionMessage(e),
+      project = basename(bib_file),  # Add the project column with the file name
+      stringsAsFactors = FALSE
+    ))
+  })
+  
+  return(errors)
+}
+
+# Process all .bib files in bibtex directory to get df of error messages
+all_errors <- do.call(rbind, lapply(bib_files, load_bibtex_with_errors))

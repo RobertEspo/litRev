@@ -41,3 +41,6 @@ all_projects <- lit_df %>%
   unlist() %>%  # Flatten the list
   unique() %>%  # Get unique values
   sort()  # Sort alphabetically
+
+# Extract file names from paths
+bib_file_names <- basename(bib_files)
