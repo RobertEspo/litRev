@@ -1,0 +1,212 @@
+# alvord2006spanish
+Title: Spanish intonation in contact: The case of Miami Cuban bilinguals
+Author: Scott Mark Alvord
+Summary: broad focus declaratives (L*+H L+H* L-L%) & absolute interrogatives (L*+H L* H-H% OR L*+H L+H* L-L%). First generation favors fall, second gen favors rise, third gen favors fall (doesn't necessarily reflect a change in progress). Social networks of individual speakers significant factor influencing absolute interrogative pattern.
+Subjects:
+25 Miami Cubans, 3 gens:
+(1) born abroad, AOA > 11
+(2) born in USA or AOA > 6
+(3) born in US to at least one parent w/ criteria from groups 1 or 2.
+
+# alvord2009disambiguating
+Title: Disambiguating Declarative and Interrogative Meaning with Intonation in Miami Cuban Spanish
+Author: Scott M Alvord
+
+# armstrong2010puerto
+Title: Puerto Rican Spanish intonation
+Author: Meghan E Armstrong
+Puerto Rican Spanish documented in the AM framework.
+
+# bedialauneta2023perception
+Title: Perception of Spanish Declarative Questions and Statements by L2 Spanish Speakers
+Author: Izaro {Bedialauneta Txurruka}
+Topic: Primary and secondary prosodic cues to interrogation.
+Population: L1 English L2 Spanish learners (20; 5 years of experience, no proficiency measures or info about their exposure to dialects) & L1 Spanish (13 Peninsular; 14 Argentinian).
+Spanish varieties: Central Peninsular (rise H%), Argentinian (circumflex HL%).
+Task: FCT. Listened to stimulus sentence, decided if it was a question or not.
+Stimuli: 27 sentences total.
+Peninsular: 6 declaratives, 6 interrogatives, 12 "manipulated" sentences.
+Argentinian: 3 interrogatives, 6 "manipulated" interrogatives.
+Manipulations: Resynthesized.
+Peninsular:
+Declarative base: (1a) rise (1b) flat
+Interrogative base: (1c) falling (1d) baseline
+Argentinian:
+Interrogative base: (2a) remove peak and maintain baseline (2b) remove peak and falling
+Should email Izaro and ask why they decided to use these manipulations and why they decided to use an Argentinian speaker, with HL%, instead of another speak that has no peak in the nuclear configuration if they're interested solely in comparing falling/rising questions. Why did they not include original declaratives from the Argentinian speaker?
+Results:
+PS sentences: L1 & L2 speakers differed in all sentence types except for unmanipulated declaratives. If the sentence had a final boundary that was flat or falling (1b, 1c, 1d), more likely than L1 speakers to say it's not a question. Even if the boundary tone is high, still less likely than L1 to say it's a question.
+AS sentences: L1 & L2 speakers performed differently for all sentence types. AS performed around chance level for manipulated sentence (2a). L2 speakers called the low (2b) a statement, but the baseline a question (2a). So they're not ONLY attending to the boundary tone. The original interrogative was perceived as a question.
+Discussion: L2 speakers relied on universal tendencies to interrogation (what about the original AS declarative & 2a?).
+Main cue is high tone at the end of utterance, but not necessarily the boundary tone.
+Contradicts Trimble (2013), who found L2 Spanish had a lot of trouble with Venezuelan interrogative circumflex. Attributes this to relative height of last accentual peak. What about exposure?
+
+# berthelsen2020different
+Title: Different neural mechanisms for rapid acquisition of words with grammatical tone in learners from tonal and non-tonal backgrounds: ERP evidence
+Author: Sabine Gosselke Berthelsen and Merle Horne and Yury Shtyrov and Mikael Roll
+Summary: ERP suggest acquisition of grammatical tone within 20 minutes.
+Participants: 2 groups. (1) 23 L1 Swedish speakers (tonal) (2) 23 L1 German (non-tonal).
+Stimuli: One-syllable pseudo-words. Tone meaningfully corresponds to gender and number.
+Task: FCT if word matches image.
+Timeframe: two 2-hour-long sessions.
+Results: Tonal group displayed P600 within 20 minutes; non-tonal group displayed P600 on day 2.
+
+# casillas2023using
+Title: Using intonation to disambiguate meaning: The role of empathy and proficiency in L2 perceptual development
+Author: Joseph V Casillas and Juan José Garrido-Pozú and Kyle Parrish and Laura Fernández Arroyo and Nicole Rodríguez and Robert Esposito and Isabelle Chang and Kimberly Gómez and Gabriela Constantin-Dureci and Jiawei Shao and {others}
+
+# corder1967significance
+Title: The significance of learner's errors
+Author: Stephen Pit Corder
+Errors can't be explained by L1-L2 transfer alone.
+
+# estebas2014evaluation
+Title: The evaluation of intonation
+Author: Eva Estebas-Vilaplana
+Do I have to click it twice?
+
+# esteve2020empathy
+Title: Empathy influences how listeners interpret intonation and meaning when words are ambiguous
+Author: Núria Esteve-Gibert and Amy J Schafer and Barbara Hemforth and Cristel Portes and Céline Pozniak and Mariapaola D’Imperio
+
+# face2007role
+Title: The role of intonational cues in the perception of declaratives and absolute interrogatives in Castilian Spanish
+Author: Timothy L Face
+
+# george2019teaching
+Title: Teaching and Learning L2 Spanish Intonation: Technology and Classroom Instruction
+Author: Angela George
+L1 English L2 Spanish (N = 10, seems like intermediate to advanced) intonation production.
+Target utterances: 7 absolute interrogatives, 4 neutral broad-focused declaratives, 3 info-seeking pronominal interrogatives (i.e., wh-questions).
+Produced before and one week after 30 mins of in-class intonation instruction.
+Explicit instruction: Visuals (map & Praat spectrograms) & recordings from Interactive Atlas of Spanish Intonation. Instructor explained differences in intonation contours between 3 types of utterances in 8 macrodialects. That seems like a lot of information to pack into 30 minutes!
+Results: Absolute interrogatives and neutral broad-focused declaratives didn't change much in post-test, but wh-questions changed more (40% different from pre-test, at least 1 utterance produced different for all participants).
+Discussion: Wh-question intonation isn't variable, so possibly why most effect is seen here. Maybe advanced learners already have intonation "cemented" in their brain, so less likely to change. Overall, explicit instruction has little impact.
+
+# george2024chapter
+Title: Unknown Title
+Author: Unknown Author
+
+# george2024l2
+Title: L2 intonation perception in learners of Spanish
+Author: Angela George
+Summary: Explicit instruction on intonation to accurately identify yes-no questions, broad-focused declarative statements, and wh-questions in advanced (L2 and heritage) Spanish learners. Learner gains non-significant.
+Participants: 11 3rd and 4th year students enrolled in advanced Spanish courses. 2 heritage speakers.
+Pretest: Listen to 21 utterances (7 declaratives, 7 yes-no questions, 7 wh-questions each from 7 regional macrodialects) and identify sentence type and dialect.
+Explicit instruction: A few days after pretest, participants received ~20 mins of instruction on utterance type intonation and dialect.
+Posttest: Performed same exercise.
+Statistics: Correct answer = 1, incorrect = 0. Scores added together. Not normally distributed, so non-parametric Related-Samples Wilcoxon Signed Rank test was used.
+Results: Most participants performed at ceiling. Had trouble with Puerto Rican dialect (only Caribbean one with high boundary tone for yes-no questions).
+
+# henriksen2010development
+Title: The development of L2 Spanish intonation during a study abroad immersion program in Le{\'o}n, Spain: Global contours and final boundary movements
+Author: Nicholas C Henriksen and Kimberly L Geeslin and Erik W Willis
+Summary: First technically-principled examination of L2 Spanish intonation developing in study abroad context. Overall F0 contours and final boundary movements. 5 L1 English L2 Spanish in León, Spain (7 weeks abroad). Production elicited for 3 context-based sentence types: declaratives, absolute interrogatives, and pronominal interrogatives. Increase of frequency of their more dominant intonation patterns &/or changes in final boundary tone inventory.
+Participants: 5 L1 EN L2 ES. Age: 16 to 18. Proficiency: Not measured. Time learning: 3 to 7 years. Homestay. Signed agreement not to speak English during time in Spain.
+Computerized Elicitation Task: Divided into 2 part.
+(1) Story involving fictional cartoon family. Contextualized lexical items and sentences. Used to provide meaningful context so they can produce meaningful production.
+(2) Participants read target sentences. Elicited declaratives (12), absolute interrogatives (12), & pronominal interrogatives (12). Each target produced 4 times, so 32 total targets per sentence type. 96 targets; 40 distractors.
+Labeling system:
+IT: Initial tonal level.
+kL: Low tone of the first patch accent of wh-word
+kH: High tone of the first pitch accent of wh-word
+pL: Low tone of the prenuclear pitch accent
+pH: High tone of the prenuclear pitch accent
+nL: Low tone of the nuclear pitch accent
+nH: High tone of the nuclear pitch accent
+FT: Final tonal value - final boundary tone
+Looking at this labeling system, notice that there's no phrase tones. Also included AM labels, but did not include tonal alignment information (e.g., used LH, not L*+H/L+H*).
+
+# ladd2008intonational
+Title: Intonational phonology
+Author: D Robert Ladd
+
+# melchers2017oxtr
+Title: The OXTR gene, implicit learning and social processing: Does empathy evolve from perceptual skills for details?
+Author: Martin Melchers and Christian Montag and Sebastian Markett and Nawael Niazy and Johanna Groß-Bölting and Jelena Zimmermann and Martin Reuter
+Summary: Associations between prominent rs2268498 polymorphism  on the oxytocin receptor gene and participants' ability to perceive and store implicit social information.
+N = 121 participants.
+Completed Interpersonal Reactivity Index (Davis, 1983), Empathy Quotient (Baron-Cohen & Wheelwright, 2004), & Autism-Spectrum Quotient (Baron-Cohen et al., 2001).
+Implicit detail learning paradigm (IDLP): Five short clips on diverse topic.
+Task: For each clip, answer 10 questions asking for details of the scene (non-social) and protagonist (social). Half open-ended, other half multiple choice.
+Results: Medium size positive correlation with IDLP results & EQ score, negatively correlated with AQ score. No difference between social and non-social questions. Small size correlation between IRI subscales measuring affective/cognitive components of empathy & IDLP.
+
+# mennen2015beyond
+Title: Beyond segments: Towards a L2 intonation learning theory
+Author: Ineke Mennen
+L2 Intonation Learning theory (LILt).
+(i) systemic: inventory and distribution of categorical phonological elements.
+(ii) realizational: phonetic implementation of these categorical elements.
+(iii) semantic: functionality of the categorical elements or tunes.
+(iv) frequency: frequency of use of the categorical elements.
+An issue I see is that we're seeing more and more than intonation is not as categorical as we think (e.g., Orrico's study on empathy/exposure).
+Explicitly distinguishes between phonological and phonetic elements.
+
+# ohala1983cross
+Title: Cross-language use of pitch: an ethological view
+Author: John J Ohala
+Higher pitch is higher politeness.
+
+# petrone2011tones
+Title: From tones to tunes: Effects of the f 0 prenuclear region in the perception of Neapolitan statements and questions
+Author: Caterina Petrone and Mariapaola D’Imperio
+
+# sequeros2019intonation
+Title: Unknown Title
+Author: Unknown Author
+
+# trimble2013acquiring
+Title: Acquiring variable L2 Spanish intonation in a study abroad context
+Author: John C Trimble
+Participants: (1) 9 L2 Spanish study abroad in Mérida, Venezuela (1 semester; 14 weeks). Homestays with weekly language exchanges. Intermediate or higher. (2) 4 L1 Venezuelan Spanish.
+Tasks: 2 tasks completed before and after traveling to Venezuela (last week of 15 weeks abroad).
+(1) Contextualized reading task [formal]: PowerPoint slide: Scripted, ongoing conversation between subject and their friend Juan.
+(2) Twenty Questions-like game [informal]: Pairs of participants interacted. One received a notecard with a famous person, place, or thing that the other had to guess by asking yes-no questions. They could ask for hints.
+Results:
+Notable changes in pitch range (to be wider).
+Different declarative patterns were adopted, but interrogative patterns mostly stayed the same (p. 89). Need to look at this more closely, a bit confusing.
+Three-way repeated-measured ANOVA with factors of Time (before or after study abroad), Sentence Type (Venezuelan-like declarative or interrogative), and Spanish-to-English ratio (i.e., how much Spanish vs English they spoke in Venezuela; measures taken for first 8 weeks & second 7 weeks). Main effects for Time & Sentence Type. Sig interaction between Time & ES-to-EN ratio.
+The inclusion of ES-to-EN ratio & its interaction with Time doesn't really make sense to me since he didn't include a baseline (i.e., at the start of their study abroad). I guess he's looking for Venezuelan-like target utterances, but then maybe he should've included a questionnaire at the beginning for ES-to-EN ratio specifically interacting with Venezuelan speakers? Or doing a completely separate model to include it.
+2 x 2 x 2 repeated-measured ANOVA with factors Time, Sentence Type, and Native Speaker Interaction (high vs low). Main effects for Time & SentenceType & interaction between Time & NS Interaction.
+Discussion: Close interaction with native speakers (i.e., making close friends) is best predictor for producing target-like intonation (in this case, Venezuelan).
+Learners who have achieved a higher level of proficiency before traveling abroad showed relatively less change in their L2 intonation. Lower level learners more open (or more able?) to incorporate new target language features. (They don't PRODUCE the targets, but what about perception?) However, statistical analysis showed no relationship between proficiency at start of program and intonational development.
+Note: This thesis includes data from the study "Acquiring dialect-specific yes-no question intonation during study abroad in Venezuela" (2023).
+
+# trimble2013perceiving
+Title: Perceiving intonational cues in a foreign language: Perception of sentence type in two dialects of Spanish
+Author: John C Trimble
+
+# trimble2023acquiring
+Title: Acquiring dialect-specific yes-no question intonation during study abroad in Venezuela
+Author: John Trimble
+L1 English L2 Spanish production (N = 9, intermediate level or higher) of regionally-indexed (Mérida, Venezuela) intonation during study abroad (one semester; 14 weeks).
+Increased frequency of familiar patterns (i.e., falling contours for declaratives), adopted new patterns (i.e., regional circumflex contour for absolute interrogatives). High levels of variation across individuals.
+Two tasks before and after traveling to Venezuela:
+(1) Contextualized reading task (formal): PowerPoint slide: Scripted, ongoing conversation between subject and their friend Juan.
+(2) [Formal task]: Don't have access to read it :-(
+Results: Repeated measures ANOVA with Task (formal vs informal) & Pattern for interrogative (rise vs circumflex). Sig main effects and interaction. 3 participants produced circumflex more often for informal; one participant produced them roughly equally in both tasks.
+
+# txurrukaperception
+Title: Unknown Title
+Author: Unknown Author
+Topic: Primary and secondary prosodic cues to interrogation.
+Population: L1 English L2 Spanish learners (20; 5 years of experience, no proficiency measures or info about their exposure to dialects) & L1 Spanish (13 Peninsular; 14 Argentinian).
+Spanish varieties: Central Peninsular (rise H%), Argentinian (circumflex HL%).
+Task: FCT. Listened to stimulus sentence, decided if it was a question or not.
+Stimuli: 27 sentences total.
+Peninsular: 6 declaratives, 6 interrogatives, 12 "manipulated" sentences.
+Argentinian: 3 interrogatives, 6 "manipulated" interrogatives.
+Manipulations: Resynthesized.
+Peninsular:
+Declarative base: (1a) rise (1b) flat
+Interrogative base: (1c) falling (1d) baseline
+Argentinian:
+Interrogative base: (2a) remove peak and maintain baseline (2b) remove peak and falling
+Should email Izaro and ask why they decided to use these manipulations and why they decided to use an Argentinian speaker, with HL%, instead of another speak that has no peak in the nuclear configuration if they're interested solely in comparing falling/rising questions. Why did they not include original declaratives from the Argentinian speaker?
+Results:
+PS sentences: L1 & L2 speakers differed in all sentence types except for unmanipulated declaratives. If the sentence had a final boundary that was flat or falling (1b, 1c, 1d), more likely than L1 speakers to say it's not a question. Even if the boundary tone is high, still less likely than L1 to say it's a question.
+AS sentences: L1 & L2 speakers performed differently for all sentence types. AS performed around chance level for manipulated sentence (2a). L2 speakers called the low (2b) a statement, but the baseline a question (2a). So they're not ONLY attending to the boundary tone. The original interrogative was perceived as a question.
+Discussion: L2 speakers relied on universal tendencies to interrogation (what about the original AS declarative & 2a?).
+Main cue is high tone at the end of utterance, but not necessarily the boundary tone.
+Contradicts Trimble (2013), who found L2 Spanish had a lot of trouble with Venezuelan interrogative circumflex. Attributes this to relative height of last accentual peak. What about exposure?
+

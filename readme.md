@@ -1,6 +1,6 @@
 # LitRev
 Author: Robert Esposito
-Date: `r Sys.Date()` 
+Last updated: Feb 2, 2025
 
 This shiny app helps to aggregate and organize references and summaries for literature reviews across various projects.
 
@@ -33,23 +33,11 @@ You can update summaries.txt outside of the app. You SHOULD NOT update the .txt 
 
 Stores individual .txt files of all summaries. You SHOULD NOT update these files, as any changes will be rewritten when you open the app.
 
-## r
+## keywords
 
-### 00_libs.R
+All keywords are stored in the file keywords.txt. All keywords must be structured with a header, indicated by #, named after the citation/entry key e.g., esposito2025citations.
 
-Stores libaries used.
-
-### 01_functions.R
-
-Stores functions used.
-
-### 02_load_data.R
-
-Loads and processes .bib files for shiny app from bibtex folder.
-
-### 03_app.R
-
-Shiny app. Feel free to modify as you see fit.
+You can update keywords.txt outside of the app. You SHOULD NOT update the .txt files in all_keywords outside of the app. Changes to any .txt files in all_keywords will be rewritten from keywords.txt when you open app.
 
 ## Running litRev
 
@@ -57,18 +45,38 @@ Open litRev.R from the main directory and run the two lines of code. The app wil
 
 ### Home
 
-There are four panels on the home page.
+The Home page has four panels and is meant to be where you work most often.
 
-The bottom right quadrant is a table of all references used across all projects. You can change the column visibility to include all information extracted from the BibTeX entries. The "project" column displays the .bib file(s) in which the reference was found. You can filter by title, author, and project in the bottom left quadrant.
+The top-left summary panel has a textbox to enter the summary for each reference, as well as add keywords.
 
-If you click on a row in the References table, the summary for it will display in the top left quadrant. To save the summary, click "Save Summary" or simply click on a different row. When you have finished adding all of your summaries and saving them, click "Combine Summaries" and then "Download Summaries". When you use "Combine Summaries", the title and author(s) of the references are automatically added to the combined .txt file, summaries.txt.
+The bottom-left panel filters the references.
 
-The top right column is used to add a BibTeX entry to a specified .bib file.
+The top-left panel allows you to add BibTeX entries to a specified project.
+
+The bottom-right entry is your database of referneces. Click on the title of the reference to open the PDF. Click on a reference's row to open the summary and keywords in the top-left Summary panel.
 
 ### Summaries
 
-This page displays all summaries in summaries.txt. It can be filtered by project.
+This page lists all of your references and allows you to view, but not edit, the summaries for them. You can filter by project.
 
 ### BibTeX Errors
 
-If a BibTeX entry failed to load for some reason, it will be displayed in the table here.
+If any BibTeX entries did not load into the program, you can view them here and what the issue is. If you click on a row, it will pull up the BibTeX entry, which you can then correct.
+
+### BibTeX Editor
+
+You can use this page to update BibTeX entries.
+
+### Visualizations
+
+Not yet functional. Will update in future.
+
+# Updating LitRev
+
+Place your pdf, BibTeX, summaries and keywords folders somewhere else (e.g., your desktop). Update LitRev repository. Replace your original folders into the updated repo.
+
+# Future goals
+
+- Think of nice visualizations for the visualization panel.
+- Try to add functionalities from something like rscopus, R-citations.
+- Add functionality to add projects from the GUI.

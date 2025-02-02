@@ -1,0 +1,20 @@
+Topic: Primary and secondary prosodic cues to interrogation.
+Population: L1 English L2 Spanish learners (20; 5 years of experience, no proficiency measures or info about their exposure to dialects) & L1 Spanish (13 Peninsular; 14 Argentinian).
+Spanish varieties: Central Peninsular (rise H%), Argentinian (circumflex HL%).
+Task: FCT. Listened to stimulus sentence, decided if it was a question or not.
+Stimuli: 27 sentences total.
+Peninsular: 6 declaratives, 6 interrogatives, 12 "manipulated" sentences.
+Argentinian: 3 interrogatives, 6 "manipulated" interrogatives.
+Manipulations: Resynthesized.
+Peninsular:
+Declarative base: (1a) rise (1b) flat
+Interrogative base: (1c) falling (1d) baseline
+Argentinian:
+Interrogative base: (2a) remove peak and maintain baseline (2b) remove peak and falling
+Should email Izaro and ask why they decided to use these manipulations and why they decided to use an Argentinian speaker, with HL%, instead of another speak that has no peak in the nuclear configuration if they're interested solely in comparing falling/rising questions. Why did they not include original declaratives from the Argentinian speaker?
+Results:
+PS sentences: L1 & L2 speakers differed in all sentence types except for unmanipulated declaratives. If the sentence had a final boundary that was flat or falling (1b, 1c, 1d), more likely than L1 speakers to say it's not a question. Even if the boundary tone is high, still less likely than L1 to say it's a question.
+AS sentences: L1 & L2 speakers performed differently for all sentence types. AS performed around chance level for manipulated sentence (2a). L2 speakers called the low (2b) a statement, but the baseline a question (2a). So they're not ONLY attending to the boundary tone. The original interrogative was perceived as a question.
+Discussion: L2 speakers relied on universal tendencies to interrogation (what about the original AS declarative & 2a?).
+Main cue is high tone at the end of utterance, but not necessarily the boundary tone.
+Contradicts Trimble (2013), who found L2 Spanish had a lot of trouble with Venezuelan interrogative circumflex. Attributes this to relative height of last accentual peak. What about exposure?

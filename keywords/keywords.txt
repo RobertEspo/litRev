@@ -1,0 +1,110 @@
+# alvord2006spanish
+Title: Spanish intonation in contact: The case of Miami Cuban bilinguals
+Author: Scott Mark Alvord
+miami_cuban, miami, cuban, spanish, l1, intonation, prosody, bilingual, l2, heritage
+
+# alvord2009disambiguating
+Title: Disambiguating Declarative and Interrogative Meaning with Intonation in Miami Cuban Spanish
+Author: Scott M Alvord
+miami_cuban, miami, cuban, intonation, prosody, perception, spanish
+
+# armstrong2010puerto
+Title: Puerto Rican Spanish intonation
+Author: Meghan E Armstrong
+puerto_rican, intonation, production, L1, spanish
+
+# bedialauneta2023perception
+Title: Perception of Spanish Declarative Questions and Statements by L2 Spanish Speakers
+Author: Izaro {Bedialauneta Txurruka}
+L1, L2, Spanish, Spain, Argentina, intonation, prosody, perception
+
+# berthelsen2020different
+Title: Different neural mechanisms for rapid acquisition of words with grammatical tone in learners from tonal and non-tonal backgrounds: ERP evidence
+Author: Sabine Gosselke Berthelsen and Merle Horne and Yury Shtyrov and Mikael Roll
+eeg, swedish, german, tone, grammatical_tone, perception
+
+# brandl2020development
+Title: The development of intonation in L2 Spanish
+Author: Anel Brandl and Carolina González and Amy Bustin
+spanish, l2, intonation, prosody, perception
+
+# casillas2023using
+Title: Using intonation to disambiguate meaning: The role of empathy and proficiency in L2 perceptual development
+Author: Joseph V Casillas and Juan José Garrido-Pozú and Kyle Parrish and Laura Fernández Arroyo and Nicole Rodríguez and Robert Esposito and Isabelle Chang and Kimberly Gómez and Gabriela Constantin-Dureci and Jiawei Shao and {others}
+perception, L2, empathy, intonation, prosody, spanish
+
+# corder1967significance
+Title: The significance of learner's errors
+Author: Stephen Pit Corder
+l2, theory
+
+# esteve2020empathy
+Title: Empathy influences how listeners interpret intonation and meaning when words are ambiguous
+Author: Núria Esteve-Gibert and Amy J Schafer and Barbara Hemforth and Cristel Portes and Céline Pozniak and Mariapaola D’Imperio
+empathy, eye-tracking, L1, intonation, prosody, french, perception
+
+# george2019teaching
+Title: Teaching and Learning L2 Spanish Intonation: Technology and Classroom Instruction
+Author: Angela George
+L2, Spanish, explicit_learning, intonation, prosody, perception
+
+# george2024l2
+Title: L2 intonation perception in learners of Spanish
+Author: Angela George
+L2, Spanish, explicit_learning, intonation, prosody, perception
+
+# henriksen2010development
+Title: The development of L2 Spanish intonation during a study abroad immersion program in Le{\'o}n, Spain: Global contours and final boundary movements
+Author: Nicholas C Henriksen and Kimberly L Geeslin and Erik W Willis
+study_abroad, intonation, prosody, spain, spanish, L2, production
+
+# hulstijn2005theoretical
+Title: Theoretical and empirical issues in the study of implicit and explicit second-language learning: Introduction
+Author: Jan H Hulstijn
+explicit_learning, implicit_learning
+
+# ladd2008intonational
+Title: Intonational phonology
+Author: D Robert Ladd
+intonation, prosody, theory
+
+# marasco2020you
+Title: “Are you asking me or telling me?” Perception and Production of Y/N Questions and Statements in L2 Spanish
+Author: Olivia Margherita Marasco
+spanish, l2, prosody, intonation, perception, production
+
+# melchers2017oxtr
+Title: The OXTR gene, implicit learning and social processing: Does empathy evolve from perceptual skills for details?
+Author: Martin Melchers and Christian Montag and Sebastian Markett and Nawael Niazy and Johanna Groß-Bölting and Jelena Zimmermann and Martin Reuter
+empathy
+
+# mennen2015beyond
+Title: Beyond segments: Towards a L2 intonation learning theory
+Author: Ineke Mennen
+l2, theory, intonation, prosody
+
+# nibert2006acquisition
+Title: The acquisition of the phrase accent by beginning adult learners of Spanish as a second language
+Author: Holly J Nibert
+spanish, l2, prosody, intonation
+
+# orrico2020individual
+Title: Individual empathy levels affect gradual intonation-meaning mapping: The case of biased questions in Salerno Italian
+Author: Riccardo Orrico and Mariapaola D’imperio
+empathy, prosody, intonation, italian
+
+# petrone2011tones
+Title: From tones to tunes: Effects of the f 0 prenuclear region in the perception of Neapolitan statements and questions
+Author: Caterina Petrone and Mariapaola D’Imperio
+italian, prosody, intonation
+
+# trimble2013acquiring
+Title: Acquiring variable L2 Spanish intonation in a study abroad context
+Author: John C Trimble
+l2, intonation, study_abroad, production
+
+# trimble2023acquiring
+Title: Acquiring dialect-specific yes-no question intonation during study abroad in Venezuela
+Author: John Trimble
+study_abroad, intonation, prosody, l2, spanish, production
+

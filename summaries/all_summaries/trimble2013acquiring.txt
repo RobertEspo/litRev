@@ -1,0 +1,13 @@
+Participants: (1) 9 L2 Spanish study abroad in Mérida, Venezuela (1 semester; 14 weeks). Homestays with weekly language exchanges. Intermediate or higher. (2) 4 L1 Venezuelan Spanish.
+Tasks: 2 tasks completed before and after traveling to Venezuela (last week of 15 weeks abroad).
+(1) Contextualized reading task [formal]: PowerPoint slide: Scripted, ongoing conversation between subject and their friend Juan.
+(2) Twenty Questions-like game [informal]: Pairs of participants interacted. One received a notecard with a famous person, place, or thing that the other had to guess by asking yes-no questions. They could ask for hints.
+Results:
+Notable changes in pitch range (to be wider).
+Different declarative patterns were adopted, but interrogative patterns mostly stayed the same (p. 89). Need to look at this more closely, a bit confusing.
+Three-way repeated-measured ANOVA with factors of Time (before or after study abroad), Sentence Type (Venezuelan-like declarative or interrogative), and Spanish-to-English ratio (i.e., how much Spanish vs English they spoke in Venezuela; measures taken for first 8 weeks & second 7 weeks). Main effects for Time & Sentence Type. Sig interaction between Time & ES-to-EN ratio.
+The inclusion of ES-to-EN ratio & its interaction with Time doesn't really make sense to me since he didn't include a baseline (i.e., at the start of their study abroad). I guess he's looking for Venezuelan-like target utterances, but then maybe he should've included a questionnaire at the beginning for ES-to-EN ratio specifically interacting with Venezuelan speakers? Or doing a completely separate model to include it.
+2 x 2 x 2 repeated-measured ANOVA with factors Time, Sentence Type, and Native Speaker Interaction (high vs low). Main effects for Time & SentenceType & interaction between Time & NS Interaction.
+Discussion: Close interaction with native speakers (i.e., making close friends) is best predictor for producing target-like intonation (in this case, Venezuelan).
+Learners who have achieved a higher level of proficiency before traveling abroad showed relatively less change in their L2 intonation. Lower level learners more open (or more able?) to incorporate new target language features. (They don't PRODUCE the targets, but what about perception?) However, statistical analysis showed no relationship between proficiency at start of program and intonational development.
+Note: This thesis includes data from the study "Acquiring dialect-specific yes-no question intonation during study abroad in Venezuela" (2023).

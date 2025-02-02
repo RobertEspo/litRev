@@ -28,3 +28,12 @@ all_projects <- lit_df %>%
   unlist() %>%  # Flatten the list
   unique() %>%  # Get unique values
   sort()  # Sort alphabetically
+
+# Run split_summaries() to split summaries.txt into individual files in the "all_summaries" folder
+split_summaries(here("summaries", "summaries.txt"), here("summaries", "all_summaries"))
+
+# Split .bib files in bibtex into individual .bib files for each entry
+split_bib_files(bib_directory, here("bibtex","all_bibtex"))
+
+# Split keywords.txt into individual .txt files for each entry
+split_keywords(here("keywords", "keywords.txt"), here("keywords", "all_keywords"))

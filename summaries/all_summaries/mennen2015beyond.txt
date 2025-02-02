@@ -1,0 +1,7 @@
+L2 Intonation Learning theory (LILt).
+(i) systemic: inventory and distribution of categorical phonological elements.
+(ii) realizational: phonetic implementation of these categorical elements.
+(iii) semantic: functionality of the categorical elements or tunes.
+(iv) frequency: frequency of use of the categorical elements.
+An issue I see is that we're seeing more and more than intonation is not as categorical as we think (e.g., Orrico's study on empathy/exposure).
+Explicitly distinguishes between phonological and phonetic elements.

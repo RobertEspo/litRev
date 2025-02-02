@@ -1,0 +1,6 @@
+Summary: Associations between prominent rs2268498 polymorphism  on the oxytocin receptor gene and participants' ability to perceive and store implicit social information.
+N = 121 participants.
+Completed Interpersonal Reactivity Index (Davis, 1983), Empathy Quotient (Baron-Cohen & Wheelwright, 2004), & Autism-Spectrum Quotient (Baron-Cohen et al., 2001).
+Implicit detail learning paradigm (IDLP): Five short clips on diverse topic.
+Task: For each clip, answer 10 questions asking for details of the scene (non-social) and protagonist (social). Half open-ended, other half multiple choice.
+Results: Medium size positive correlation with IDLP results & EQ score, negatively correlated with AQ score. No difference between social and non-social questions. Small size correlation between IRI subscales measuring affective/cognitive components of empathy & IDLP.

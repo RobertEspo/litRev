@@ -1,0 +1,15 @@
+Summary: First technically-principled examination of L2 Spanish intonation developing in study abroad context. Overall F0 contours and final boundary movements. 5 L1 English L2 Spanish in León, Spain (7 weeks abroad). Production elicited for 3 context-based sentence types: declaratives, absolute interrogatives, and pronominal interrogatives. Increase of frequency of their more dominant intonation patterns &/or changes in final boundary tone inventory.
+Participants: 5 L1 EN L2 ES. Age: 16 to 18. Proficiency: Not measured. Time learning: 3 to 7 years. Homestay. Signed agreement not to speak English during time in Spain.
+Computerized Elicitation Task: Divided into 2 part.
+(1) Story involving fictional cartoon family. Contextualized lexical items and sentences. Used to provide meaningful context so they can produce meaningful production.
+(2) Participants read target sentences. Elicited declaratives (12), absolute interrogatives (12), & pronominal interrogatives (12). Each target produced 4 times, so 32 total targets per sentence type. 96 targets; 40 distractors.
+Labeling system:
+IT: Initial tonal level.
+kL: Low tone of the first patch accent of wh-word
+kH: High tone of the first pitch accent of wh-word
+pL: Low tone of the prenuclear pitch accent
+pH: High tone of the prenuclear pitch accent
+nL: Low tone of the nuclear pitch accent
+nH: High tone of the nuclear pitch accent
+FT: Final tonal value - final boundary tone
+Looking at this labeling system, notice that there's no phrase tones. Also included AM labels, but did not include tonal alignment information (e.g., used LH, not L*+H/L+H*).

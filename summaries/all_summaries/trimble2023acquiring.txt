@@ -1,0 +1,6 @@
+L1 English L2 Spanish production (N = 9, intermediate level or higher) of regionally-indexed (Mérida, Venezuela) intonation during study abroad (one semester; 14 weeks).
+Increased frequency of familiar patterns (i.e., falling contours for declaratives), adopted new patterns (i.e., regional circumflex contour for absolute interrogatives). High levels of variation across individuals.
+Two tasks before and after traveling to Venezuela:
+(1) Contextualized reading task (formal): PowerPoint slide: Scripted, ongoing conversation between subject and their friend Juan.
+(2) [Formal task]: Don't have access to read it :-(
+Results: Repeated measures ANOVA with Task (formal vs informal) & Pattern for interrogative (rise vs circumflex). Sig main effects and interaction. 3 participants produced circumflex more often for informal; one participant produced them roughly equally in both tasks.

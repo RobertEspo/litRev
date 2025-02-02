@@ -1,0 +1,7 @@
+Summary: Explicit instruction on intonation to accurately identify yes-no questions, broad-focused declarative statements, and wh-questions in advanced (L2 and heritage) Spanish learners. Learner gains non-significant.
+Participants: 11 3rd and 4th year students enrolled in advanced Spanish courses. 2 heritage speakers.
+Pretest: Listen to 21 utterances (7 declaratives, 7 yes-no questions, 7 wh-questions each from 7 regional macrodialects) and identify sentence type and dialect.
+Explicit instruction: A few days after pretest, participants received ~20 mins of instruction on utterance type intonation and dialect.
+Posttest: Performed same exercise.
+Statistics: Correct answer = 1, incorrect = 0. Scores added together. Not normally distributed, so non-parametric Related-Samples Wilcoxon Signed Rank test was used.
+Results: Most participants performed at ceiling. Had trouble with Puerto Rican dialect (only Caribbean one with high boundary tone for yes-no questions).

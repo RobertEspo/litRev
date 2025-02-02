@@ -1,0 +1,6 @@
+L1 English L2 Spanish (N = 10, seems like intermediate to advanced) intonation production.
+Target utterances: 7 absolute interrogatives, 4 neutral broad-focused declaratives, 3 info-seeking pronominal interrogatives (i.e., wh-questions).
+Produced before and one week after 30 mins of in-class intonation instruction.
+Explicit instruction: Visuals (map & Praat spectrograms) & recordings from Interactive Atlas of Spanish Intonation. Instructor explained differences in intonation contours between 3 types of utterances in 8 macrodialects. That seems like a lot of information to pack into 30 minutes!
+Results: Absolute interrogatives and neutral broad-focused declaratives didn't change much in post-test, but wh-questions changed more (40% different from pre-test, at least 1 utterance produced different for all participants).
+Discussion: Wh-question intonation isn't variable, so possibly why most effect is seen here. Maybe advanced learners already have intonation "cemented" in their brain, so less likely to change. Overall, explicit instruction has little impact.

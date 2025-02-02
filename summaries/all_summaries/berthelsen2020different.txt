@@ -1,0 +1,6 @@
+Summary: ERP suggest acquisition of grammatical tone within 20 minutes.
+Participants: 2 groups. (1) 23 L1 Swedish speakers (tonal) (2) 23 L1 German (non-tonal).
+Stimuli: One-syllable pseudo-words. Tone meaningfully corresponds to gender and number.
+Task: FCT if word matches image.
+Timeframe: two 2-hour-long sessions.
+Results: Tonal group displayed P600 within 20 minutes; non-tonal group displayed P600 on day 2.
