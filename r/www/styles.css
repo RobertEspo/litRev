@@ -1,0 +1,87 @@
+/* styles.css */
+/* styles for home page */
+
+.grid-container {
+  display: grid;
+  grid-template-rows: auto auto; /* Two rows */
+  gap: 20px;
+  height: calc(100vh - 50px);
+}
+
+.top-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Wider first column */
+  gap: 20px;
+}
+
+.bottom-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Wider second column */
+  gap: 20px;
+}
+
+.summary-and-keywords-box {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.summary-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.keyword-box {
+  flex: 0.3;
+}
+
+.filter-box, .add-bibtex, .search-box, .references-box {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.box-title {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: #CC0033;
+  margin-bottom: 10px;
+}
+
+.action-button {
+  background-color: #CC0033;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #990026;
+}
+
+textarea, .keyword-filter-box textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body, label, input, button, select, textarea, .box-title, .dataTables_wrapper {
+  color: #000000;
+}
+
+.skin-blue .main-header .logo {
+  background-color: #CC0033;
+  color: #000000;
+  font-weight: bold;
+}
+
+.skin-blue .main-header .navbar {
+  background-color: #CC0033;
+}

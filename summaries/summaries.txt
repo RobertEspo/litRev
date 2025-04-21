@@ -51,9 +51,36 @@ Task: FCT if word matches image.
 Timeframe: two 2-hour-long sessions.
 Results: Tonal group displayed P600 within 20 minutes; non-tonal group displayed P600 on day 2.
 
+# byers2021multilab
+Title: A multilab study of bilingual infants: Exploring the preference for infant-directed speech
+Author: Krista Byers-Heinlein and Angeline Sin Mei Tsui and Christina Bergmann and Alexis K Black and Anna Brown and Maria Julia Carbajal and Samantha Durrant and Christopher T Fennell and Anne-Caroline Fiévet and Michael C Frank and {others}
+Goals/Questions: (1) Do infants prefer IDS to ADS across languages and cultures? (2) Does bilingualism impact IDS vs ADS interest? (3) How does amount of exposure to NAE IDS affect bilingual infants’ listening preferences? Disentangles dose effects of exposure to NAE IDS from infants’ bilingualism. This final goal/question seems sort of strange to me – I don’t entirely see the motivation.
+Participants: 333 bilinguals, 384 monolinguals. Two groups: 6-9 months, 12-15 months. Across 17 labs in seven countries.
+Methodology: Labs used either central fixation, eye tracking, or head-turn-preference procedure.
+I’ve noticed that a lot of these methodologies has a manual aspect of measuring infants’ looking times (“In the HPP… duration of their looking to the visual stimulus was measured via button press” [p. 5]). That seems a bit messy to me. But I suppose that when dealing with infant looking time, maybe a difference in milliseconds doesn’t matter.
+Stimuli: Seminaturalistic speech from mothers describing objects to infant (IDS) or researcher (ADS). Only NAE stimuli. Seems sort of strange to me that all infants were exposed to only NAE.
+The statistics in this paper is ridiculously complex and need to review them again.
+Discussion:
+•	IDS/ADS preferences similar across mono- and bilinguals, as well as in variability of preferences within groups. That is, mono- and bilinguals have similar variability.
+•	Bilinguals with greater exposure to NAE showed greater NAE IDS preference. Suggests continuous dose effect of exposure on IDS preference.
+•	Age * SES * IDS interaction. Younger children from high SES families preferred IDS, but similar IDS preference at later age group.
+Although the actual results of this study are great and interesting, I think a huge contribution of this study is the multilab-nature of it and its rigorous statistics. To me, when I see another large scale study, I will definitely be pulling this one up again.
+
 # casillas2023using
 Title: Using intonation to disambiguate meaning: The role of empathy and proficiency in L2 perceptual development
 Author: Joseph V Casillas and Juan José Garrido-Pozú and Kyle Parrish and Laura Fernández Arroyo and Nicole Rodríguez and Robert Esposito and Isabelle Chang and Kimberly Gómez and Gabriela Constantin-Dureci and Jiawei Shao and {others}
+
+# chantal2022cross
+Title: Unknown Title
+Author: Unknown Author
+First, I’m surprised about the low number of target items in studies, with the majority of them having less than 10 target items (p. 16). I’m skeptical that the small number of target items can really get at “true” cross-linguistic influence, as opposed to performance mismatch. I’m thinking of Joseph Casillas’ study “Interlingual interactions elicit performance mismatches not ‘compromise’ categories” (2021). Although his study focuses on EN-ES adult bilingual coronal stop production, I think it’s relevant: with such few target items, how do we know we’re really getting at genuine cross-linguistic influence, as opposed to just performance mismatch? That is, we know that bilinguals constantly activate both of their grammars when producing speech. If they have two or more options available to them, they may just be choosing the “wrong option” for the context due to processing difficulties, task difficulties, or just the strangeness/unnaturalness of a given task.
+Something that this paper really honed in on for me was the difference between comparing child bilingual’s “two grammars” to their child monolingual counterparts vs adult monolinguals. Although I do think that comparing a bilingual’s grammar, child or not, to an adult monolingual’s is valid depending on the research question, as we discussed in class, I don’t think that they are fully getting at their research question here. Specifically, the example they give about Persian and English compound noun headedness: if English monolingual children do produce left-headed compounds at times, ungrammatical in adult monolingual English grammars, then I think it’s not intuitive or interesting to compare English-Persian bilingual children to adults. Given that we don’t know the rest of the studies involved and if there’s more cases like this, I’m skeptical about getting the full picture here with their results.
+I loved the nuance that we get about language dominance and the societal language: language dominance predicts strength of the cross-linguistic influence, not the presence (p. 23). Something that would be interesting to me is determining if “percentages of dominance” correspond to specific areas of cross-linguistic influence. For example, Spanish-English bilinguals of varying dominance levels (i.e. some fake categories: high EN dom, mid-high EN dom, mid EN dom, “balanced”) have specific areas of their grammar associated with cross-linguistic influence. If, for example, high EN doms have cross-linguistic influence across the board; mid-high EN dom have less cross-linguistic influence in something specific across the majority of the population, like not producing prepositions at the end of a sentence (“¿Quién estás hablando con?”); etc. So we’d be able to make entailment predictions like “If a bilingual does not produce X, then they will not produce Y”.
+
+# chiosain1991topics
+Title: Topics in the phonology of Irish
+Author: Máire Ní Chiosáin
+The phonology of Irish.
 
 # corder1967significance
 Title: The significance of learner's errors
@@ -117,9 +144,51 @@ nH: High tone of the nuclear pitch accent
 FT: Final tonal value - final boundary tone
 Looking at this labeling system, notice that there's no phrase tones. Also included AM labels, but did not include tonal alignment information (e.g., used LH, not L*+H/L+H*).
 
+# hoff2013input
+Title: Input and language development in bilingually developing children
+Author: Erika Hoff and Cynthia Core
+•	Oral language skills < 5 years old strong predictors of subsequent academic outcomes (p. 2)
+o	Again, scary!
+•	“high-quality input is more likely to be provided by adults whose own level of language proficiency is high” (p. 3)
+o	How do we measure language proficiency in monolingual adults? Calling it proficiency seems very sketchy, especially if work is being done with minority populations.
+•	“some evidence that developing the ability to understand a language does not require as much input as developing the ability to speak a language” (p. 5)
+o	It’s surprising to me that there’s only “some” evidence for this. I feel like this is a very common scenario for heritage speakers.
+•	“parents are more likely to use the minority language with daughters than with sons and that girls are more likely to develop as bilinguals than boys” (p. 5)
+o	Wow! Very strange.
+•	“language exposure via television is not particularly supportive” (p. 6)
+o	I saw a study investigating this in my language development class in undergrad, and I think it’s a surprising finding due to the amount of folks who grew up in a monolingual environment and supposedly learned English through TV exposure. I’m skeptical of their claims and the “ease” of it, but I’m also skeptical about the outright assertion that TV exposure is not supportive.
+
+# kalashnikova2022input
+Title: Input quality and speech perception development in bilingual infants’ first year of life
+Author: Marina Kalashnikova and Manuel Carreiras
+Goals: (1) Linguistic properties of infant-directed speech (IDS) in monolingual and bilingual environments; (2) how infants use IDS in linguistic development. Specifically investigating quality of input.
+Participants: monolingual (Spanish or Basque) & bilingual (Spanish-Basque) infants, 5 months & 9 months. All parents are proficient Spanish-Basque bilinguals.
+Infant task: Speech perception task. Descriminate three categories of bilabial consonants with different VOTs. Produced by English speaker, I supposed to get natural aspiration, but is the vowel important?
+Mother task: infants’ mothers recorded in interactions with their infants and with an adult. Calculated vocalic triangle area for IDS compared to ADS.
+The structure of their LME seems a little odd.
+Looking time ~ Trial Type + Age Group + Lang Group
++ Test Order + Trial Type * Age Group
++ Trial Type * Lang Group + Trial Type
+* Age Group * Lang Group + (1 | Participant)
+This could be simplified to:
+Looking time ~ Trial Type * Age Group * Lang Group + Test Order + (1 | Participant).
+I wonder why they didn’t include item as a random intercept, or why they didn’t include random slopes?
+I’m surprised that for the correlation tests between maternal vowel hyper-scores and infants’ difference scores, they didn’t include correlations separately for monolingual and bilingual populations. Since we are assuming that bilinguals receive less input, it might be the case that exaggerated vowels help them more than monolinguals, who receive more input. I’m also not sure why they wouldn’t put this into a regression model instead of using correlations. In fact, although it would make for a very complicated model, they could have attempted to add it as a predictor in the “Looking time ~” model, no?
+Results: 9 month olds who directed less attention to non-native contrast had mothers who had greater degree of exaggerated vowels in IDS.
+The background literature on the relationship between mothers’ degree of vowel exaggeration and infants’ current and future vocabulary size and future language proficiency, as late as 4 years old, is terrifying (p. 3).
+
 # ladd2008intonational
 Title: Intonational phonology
 Author: D Robert Ladd
+
+# linger2016understanding
+Title: The understanding of implied meaning in monolingual and bilingual children
+Author: Kenah Rey Linger
+22 children, aged 42 months to 78 months (i.e., 1;8 to 6;5, huge range). 11 EN mono (m = 52 months), 11 SP-EN bi (m = 61 m). Is that significantly different? No SES measures.
+Prosody task: "it looks like a NOUN" (noun-focus or verb-focus), children chose correct pic.
+non-linguistic measures: card sort & day and night (executive function tasks).
+Results: No sig diff b/w groups, but bi performed slightly better. looks like both groups performed better on NOUN than VERB. EF not sig either.
+This would be good to redo with a larger sample size, two bilingual groups, SES control, and smaller age range.
 
 # melchers2017oxtr
 Title: The OXTR gene, implicit learning and social processing: Does empathy evolve from perceptual skills for details?
@@ -147,6 +216,22 @@ Title: Cross-language use of pitch: an ethological view
 Author: John J Ohala
 Higher pitch is higher politeness.
 
+# ortega2014l2
+Title: L2 English intonation: Relations between form-meaning associations, access to meaning, and L1 transfer
+Author: Marta Ortega-Llebaria and Laura Colantoni
+Perception/production of sentential English focus by advanced L2 English (L1 Mandarin = 13, L1 Spanish = 14, 13 controls). L1 Spanish showed transfer in perception of focalized verbs/subjects, bias for focus at end of sentence. Only group to insert pause after focalized word. More obvious in contextualized tasks.
+RQ: "We examine whether L1 transfer on L2 form-meaning associations can be modeled by manipulating access to meaning through context" (p. 4). Does access to meaning reduce or increase L1 transfer? Previous research shows that tasks promoting acoustic perception triggered less L1 transfer; tasks involving access to meaning/higher levels of processing increased L1 transfer.
+Task: Perception of English contrastive sentence focus in subject, verb, & object position.
+2 perception & 2 production.
+[+access-to-meaning] ([+AM]): listen to story with illustrations. Production: stimuli = "who is the dog? is bobby the dog?" answer: "no, TOBY is the dog." Perception: Q: Did bobby fall out of the tree? match to one of 3 sentences w/ diff contours eg TOBY fell out of the tree, toby FELL OUT of the tree... Match a contextualized/accessible meaning to appropriate sentence F0 contour.
+[-AM]: Presented w/ isolated sentences unrelated in meaning. Production, imitation. Perception, match sentence to low-pass filtered sentences. (sounds like it really works working memory, and why low-pass filtered?)
+ENGLISH FOCUS: Prominent word associated w/ pitch accent of expanded pitch range, longer duration, and louder intensity. Words following prominent word are produced w/ compressed pitch range, shorter durations, and softer intensity.
+SPANISH FOCUS: Face found evidence for focus receiving pitch accent in ES Madrid, but Toledo didn't find such for Bueno Aires (granted, it was 1989...). Usually syntactic, though.
+MANDARIN FOCUS: Expand pitch range & duration of tone in focalized word, compress pitch range in postfocal words. Prefocal words not affected by pitch compression.
+So taking these three together: English & Mandarin are similar in using prosody/intonation to mark focus, whereas Spanish more often resorts to word order.
+RESULTS: Spanish performed worst. For perception, [+AM] verb position most difficult to perceive; for [-AM], subject position. Spanish performed worse than Mandarin.
+Perception: Participants performed better in [-AM] (in production, too). When not focusing on just the acoustic cues, it's harder to process (makes sense).
+
 # petrone2011tones
 Title: From tones to tunes: Effects of the f 0 prenuclear region in the perception of Neapolitan statements and questions
 Author: Caterina Petrone and Mariapaola D’Imperio
@@ -154,6 +239,14 @@ Author: Caterina Petrone and Mariapaola D’Imperio
 # sequeros2019intonation
 Title: Unknown Title
 Author: Unknown Author
+
+# siegal2009bilingualism
+Title: Bilingualism and conversational understanding in young children
+Author: Michael Siegal and Laura Iozzi and Luca Surian
+Summary
+Does bilingualism conferm advantage to children's conversation understanding? 163 children aged 3-6 years. Administered Conversational Violations Test, identify responses to questions as violations of Gricean maxims. Italian/Slovenian (dom Slovenian) outperformed Italian & Slovenian monolinguals. They seem to be sequential bilinguals: learned Slovenian from birth, exposed to Italian at school.
+I wish they had another bilingual control group.
+No executive function effects, but everyone performed around ceiling.
 
 # trimble2013acquiring
 Title: Acquiring variable L2 Spanish intonation in a study abroad context
@@ -209,4 +302,46 @@ AS sentences: L1 & L2 speakers performed differently for all sentence types. AS 
 Discussion: L2 speakers relied on universal tendencies to interrogation (what about the original AS declarative & 2a?).
 Main cue is high tone at the end of utterance, but not necessarily the boundary tone.
 Contradicts Trimble (2013), who found L2 Spanish had a lot of trouble with Venezuelan interrogative circumflex. Attributes this to relative height of last accentual peak. What about exposure?
+
+# wells2004intonation
+Title: Intonation development from five to thirteen
+Author: Bill Wells and Sue Peppé and Nata Goulandris
+Summary
+Goal: Get better understanding of intonation development across childhood.
+Participants: 120 children total, 30 in each group = 5;6, 8;7, 10;10, 13;9 (5;0 to 14;3). L1 is English & English spoken at home, but didn't identify any other languages.
+Task aims: Chunking, Affect, Interaction, Focus. Production & Comprehension.
+Results: high variability. Intonation production functionality established at 5, specfiic functional contrasts not mastered until 8. Comprehension develops up to 10, correlates w/ measures of expressive/receptive lang development.
+Methodology & Task Items
+Chunking: prosodic delimitation of utterances into units. In this case, grammatical distinction between compound nouns e.g., chocolate biscuits and honey. Targets intonation phrase & accent groups. Previous research on chunking (e.g., "she dressed(%) & fed the baby%") shows conflicting results in children's abilities, possbily due to task/grammatical complexity.
+percetion: voice says 2 or 3 foods (e.g., fruit-salad & milk vs fruit, salad & milk)
+production: child sees pic w/ 2 or 3 foods.
+Affect: Express strong liking vs reservation. Children identifying emotions from voice have increasing accuracy with age (four, five, six years old; Van der Meulen, Janssen & den Os, 1997). Cruttenden (1985) for reservation: children at 10 did not have adult-like comprehension. However, there was variation among children (those who performed "adult-like") and adults (who performed non-adult-like) -- does this have to do with EMPATHY? Something here to investigate.
+perception: like or dislike pic w/ rise-fall or fall-rise on [m].
+production: child does the same.
+Interaction: Comprehension affirmation or rejection. Intonational Pharse & Accent Group.
+perception: child names pic, tester repeats w/ fall on low onset (go on) or rise with high onset (questioning, repeat).
+production: voice says non-word or real word. child repeats word with questioning (nonword) or affirming (real world). this one seems particularly complicated for children.
+Focus: Corrective narrow focus.
+perception: i wanted CHOCOLATE and honey vs chocolate and HONEY. child decides which speaker didn't receive.
+production: tester offers child a pic saying "how about a green bike?" child responds to get the pic he really needs e.g., "i want a WHITE bike".
+Results
+Ceiling effects in all tasks, but increasing accuracy with age. There were always some outliers (EMPATHY?). Still a lot of variability, and production less consistently accurate than comprehension.
+5 year olds performed below 75% on Comprehension Interaction & Focus, but above 75% for Input Chunking and Affect.
+Three older groups above 75% for Comprehension, except Comprehension Focus. Only 13 year olds got >75% for Comp Focus.
+For production, all age groups got >75% for chunking/focus, but 5 year olds <75% on affect/interaction.
+Positive correlations w/ comprehension/production & CELF/TROG (expressive/receptive language skills assessments).
+There are some qualitative analyses on the errors.
+
+# zhang2021acquisition
+Title: Acquisition of Prosodic Focus Marking by Three-to Six-Year-Old Children Learning Mandarin Chinese.
+Author: Qianyutong Zhang and Kexin Lyu and Zening Chen and Ping Tang
+Summary: 20 3-4 yo, 23 5-6 yo, 22 adult controls. Visual world paradigm. "Find the red cat. Now find the PURPLE/purple cat. (second adj produced w/ or w/o prosodic focus.) 5-6 yos and adults faster fixation towards target w/ prosodic focus; not 3-4 yos. By 5-6 yos, Mandarin-learning children acquired pragmatic meaning of prosodic focus. Maybe the younger kids have not yet developed the necessary executive control to maintain/compare info across utterances? not able to map prosodic focus to pragmatic implicature?
+
+# zhang2024production
+Title: Production of Contrastive Focus in Mandarin-Speaking Children
+Author: Sichen Zhang and Aijun Li and Jun Gao
+Summary: Contrastive focus in Mandarin children (4;7 to 6;0, 10 participants). Adj1 + Noun1 + Verb + Adj2 + Noun2 structure. Most common misplacements: noun2 > adj1 > adj2. Acoustic cues: pitch range expansion, durational adjustment, post-focus compression. Developed gradually with age. Still developing at age 6 due to complex interaction of lexical/phrase prosody.
+Acoustic analysis:
+Lowering of post-focus pitch register, lowering varies according to setence position.
+Duration: Of two units (e.g., N1 vs N2, Adj1 vs Adj2), the focused element was longer, but not the longest of the utterance.
 

@@ -1,0 +1,12 @@
+Perception/production of sentential English focus by advanced L2 English (L1 Mandarin = 13, L1 Spanish = 14, 13 controls). L1 Spanish showed transfer in perception of focalized verbs/subjects, bias for focus at end of sentence. Only group to insert pause after focalized word. More obvious in contextualized tasks.
+RQ: "We examine whether L1 transfer on L2 form-meaning associations can be modeled by manipulating access to meaning through context" (p. 4). Does access to meaning reduce or increase L1 transfer? Previous research shows that tasks promoting acoustic perception triggered less L1 transfer; tasks involving access to meaning/higher levels of processing increased L1 transfer.
+Task: Perception of English contrastive sentence focus in subject, verb, & object position.
+2 perception & 2 production.
+[+access-to-meaning] ([+AM]): listen to story with illustrations. Production: stimuli = "who is the dog? is bobby the dog?" answer: "no, TOBY is the dog." Perception: Q: Did bobby fall out of the tree? match to one of 3 sentences w/ diff contours eg TOBY fell out of the tree, toby FELL OUT of the tree... Match a contextualized/accessible meaning to appropriate sentence F0 contour.
+[-AM]: Presented w/ isolated sentences unrelated in meaning. Production, imitation. Perception, match sentence to low-pass filtered sentences. (sounds like it really works working memory, and why low-pass filtered?)
+ENGLISH FOCUS: Prominent word associated w/ pitch accent of expanded pitch range, longer duration, and louder intensity. Words following prominent word are produced w/ compressed pitch range, shorter durations, and softer intensity.
+SPANISH FOCUS: Face found evidence for focus receiving pitch accent in ES Madrid, but Toledo didn't find such for Bueno Aires (granted, it was 1989...). Usually syntactic, though.
+MANDARIN FOCUS: Expand pitch range & duration of tone in focalized word, compress pitch range in postfocal words. Prefocal words not affected by pitch compression.
+So taking these three together: English & Mandarin are similar in using prosody/intonation to mark focus, whereas Spanish more often resorts to word order.
+RESULTS: Spanish performed worst. For perception, [+AM] verb position most difficult to perceive; for [-AM], subject position. Spanish performed worse than Mandarin.
+Perception: Participants performed better in [-AM] (in production, too). When not focusing on just the acoustic cues, it's harder to process (makes sense).

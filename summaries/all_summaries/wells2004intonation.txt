@@ -1,0 +1,25 @@
+Summary
+Goal: Get better understanding of intonation development across childhood.
+Participants: 120 children total, 30 in each group = 5;6, 8;7, 10;10, 13;9 (5;0 to 14;3). L1 is English & English spoken at home, but didn't identify any other languages.
+Task aims: Chunking, Affect, Interaction, Focus. Production & Comprehension.
+Results: high variability. Intonation production functionality established at 5, specfiic functional contrasts not mastered until 8. Comprehension develops up to 10, correlates w/ measures of expressive/receptive lang development.
+Methodology & Task Items
+Chunking: prosodic delimitation of utterances into units. In this case, grammatical distinction between compound nouns e.g., chocolate biscuits and honey. Targets intonation phrase & accent groups. Previous research on chunking (e.g., "she dressed(%) & fed the baby%") shows conflicting results in children's abilities, possbily due to task/grammatical complexity.
+percetion: voice says 2 or 3 foods (e.g., fruit-salad & milk vs fruit, salad & milk)
+production: child sees pic w/ 2 or 3 foods.
+Affect: Express strong liking vs reservation. Children identifying emotions from voice have increasing accuracy with age (four, five, six years old; Van der Meulen, Janssen & den Os, 1997). Cruttenden (1985) for reservation: children at 10 did not have adult-like comprehension. However, there was variation among children (those who performed "adult-like") and adults (who performed non-adult-like) -- does this have to do with EMPATHY? Something here to investigate.
+perception: like or dislike pic w/ rise-fall or fall-rise on [m].
+production: child does the same.
+Interaction: Comprehension affirmation or rejection. Intonational Pharse & Accent Group.
+perception: child names pic, tester repeats w/ fall on low onset (go on) or rise with high onset (questioning, repeat).
+production: voice says non-word or real word. child repeats word with questioning (nonword) or affirming (real world). this one seems particularly complicated for children.
+Focus: Corrective narrow focus.
+perception: i wanted CHOCOLATE and honey vs chocolate and HONEY. child decides which speaker didn't receive.
+production: tester offers child a pic saying "how about a green bike?" child responds to get the pic he really needs e.g., "i want a WHITE bike".
+Results
+Ceiling effects in all tasks, but increasing accuracy with age. There were always some outliers (EMPATHY?). Still a lot of variability, and production less consistently accurate than comprehension.
+5 year olds performed below 75% on Comprehension Interaction & Focus, but above 75% for Input Chunking and Affect.
+Three older groups above 75% for Comprehension, except Comprehension Focus. Only 13 year olds got >75% for Comp Focus.
+For production, all age groups got >75% for chunking/focus, but 5 year olds <75% on affect/interaction.
+Positive correlations w/ comprehension/production & CELF/TROG (expressive/receptive language skills assessments).
+There are some qualitative analyses on the errors.

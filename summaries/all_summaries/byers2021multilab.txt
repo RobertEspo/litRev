@@ -1,0 +1,11 @@
+Goals/Questions: (1) Do infants prefer IDS to ADS across languages and cultures? (2) Does bilingualism impact IDS vs ADS interest? (3) How does amount of exposure to NAE IDS affect bilingual infants’ listening preferences? Disentangles dose effects of exposure to NAE IDS from infants’ bilingualism. This final goal/question seems sort of strange to me – I don’t entirely see the motivation.
+Participants: 333 bilinguals, 384 monolinguals. Two groups: 6-9 months, 12-15 months. Across 17 labs in seven countries.
+Methodology: Labs used either central fixation, eye tracking, or head-turn-preference procedure.
+I’ve noticed that a lot of these methodologies has a manual aspect of measuring infants’ looking times (“In the HPP… duration of their looking to the visual stimulus was measured via button press” [p. 5]). That seems a bit messy to me. But I suppose that when dealing with infant looking time, maybe a difference in milliseconds doesn’t matter.
+Stimuli: Seminaturalistic speech from mothers describing objects to infant (IDS) or researcher (ADS). Only NAE stimuli. Seems sort of strange to me that all infants were exposed to only NAE.
+The statistics in this paper is ridiculously complex and need to review them again.
+Discussion:
+•	IDS/ADS preferences similar across mono- and bilinguals, as well as in variability of preferences within groups. That is, mono- and bilinguals have similar variability.
+•	Bilinguals with greater exposure to NAE showed greater NAE IDS preference. Suggests continuous dose effect of exposure on IDS preference.
+•	Age * SES * IDS interaction. Younger children from high SES families preferred IDS, but similar IDS preference at later age group.
+Although the actual results of this study are great and interesting, I think a huge contribution of this study is the multilab-nature of it and its rigorous statistics. To me, when I see another large scale study, I will definitely be pulling this one up again.

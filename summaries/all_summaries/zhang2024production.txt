@@ -1,0 +1,4 @@
+Summary: Contrastive focus in Mandarin children (4;7 to 6;0, 10 participants). Adj1 + Noun1 + Verb + Adj2 + Noun2 structure. Most common misplacements: noun2 > adj1 > adj2. Acoustic cues: pitch range expansion, durational adjustment, post-focus compression. Developed gradually with age. Still developing at age 6 due to complex interaction of lexical/phrase prosody.
+Acoustic analysis:
+Lowering of post-focus pitch register, lowering varies according to setence position.
+Duration: Of two units (e.g., N1 vs N2, Adj1 vs Adj2), the focused element was longer, but not the longest of the utterance.

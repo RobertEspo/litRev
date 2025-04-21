@@ -1,0 +1,37 @@
+/* Styles for summary display boxes */
+/* Prevents line breaks */
+
+.summary-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  resize: both;
+  overflow: auto;
+  word-break: break-word;
+  width: 50%;
+}
+
+.summary-item h4,
+.summary-item p {
+  margin: 0;
+}
+
+.summary-item details {
+  margin-top: 10px;
+}
+
+.summary-item summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.summary-item .indicator {
+  margin-right: 5px;
+}
+
+.summary-item pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+}

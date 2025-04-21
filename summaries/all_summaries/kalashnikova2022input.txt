@@ -1,0 +1,15 @@
+Goals: (1) Linguistic properties of infant-directed speech (IDS) in monolingual and bilingual environments; (2) how infants use IDS in linguistic development. Specifically investigating quality of input.
+Participants: monolingual (Spanish or Basque) & bilingual (Spanish-Basque) infants, 5 months & 9 months. All parents are proficient Spanish-Basque bilinguals.
+Infant task: Speech perception task. Descriminate three categories of bilabial consonants with different VOTs. Produced by English speaker, I supposed to get natural aspiration, but is the vowel important?
+Mother task: infants’ mothers recorded in interactions with their infants and with an adult. Calculated vocalic triangle area for IDS compared to ADS.
+The structure of their LME seems a little odd.
+Looking time ~ Trial Type + Age Group + Lang Group
++ Test Order + Trial Type * Age Group
++ Trial Type * Lang Group + Trial Type
+* Age Group * Lang Group + (1 | Participant)
+This could be simplified to:
+Looking time ~ Trial Type * Age Group * Lang Group + Test Order + (1 | Participant).
+I wonder why they didn’t include item as a random intercept, or why they didn’t include random slopes?
+I’m surprised that for the correlation tests between maternal vowel hyper-scores and infants’ difference scores, they didn’t include correlations separately for monolingual and bilingual populations. Since we are assuming that bilinguals receive less input, it might be the case that exaggerated vowels help them more than monolinguals, who receive more input. I’m also not sure why they wouldn’t put this into a regression model instead of using correlations. In fact, although it would make for a very complicated model, they could have attempted to add it as a predictor in the “Looking time ~” model, no?
+Results: 9 month olds who directed less attention to non-native contrast had mothers who had greater degree of exaggerated vowels in IDS.
+The background literature on the relationship between mothers’ degree of vowel exaggeration and infants’ current and future vocabulary size and future language proficiency, as late as 4 years old, is terrifying (p. 3).
