@@ -1,82 +1,163 @@
-# LitRev
+
+# litRev
+
 Author: Robert Esposito
-Last updated: Feb 2, 2025
 
-This shiny app helps to aggregate and organize references and summaries for literature reviews across various projects.
+Last updated: April 21, 2025
 
-# Setting up LitRev
+This shiny app helps to aggregate and organize references and summaries
+for literature reviews across various projects.
+
+# Setting up litRev
 
 ## bibtex
 
-Place your .bib files in this folder. It is best to name your .bib file for the project you're working on, as you will be able to see which references you used in which projects in the app. If there are repeated references across projects, the app will list all of project names in which they appear.
+Place your `.bib` files in this folder. It is best to name your `.bib`
+file for the project you’re working on, as you will be able to see which
+references you used in which projects in the app. If there are repeated
+references across projects, the app will list all of project names in
+which they appear.
 
 ## pdfs
 
-Put PDF files of your references into the "pdfs" folder. Make sure it is named after your citation/entry key. For example, if your BibTeX citation is:
+Put `.pdf` files of your references into the “pdfs” folder. Make sure it
+is named after your citation/entry key. For example, if your BibTeX
+citation is:
 
-@book{esposito2025citations,
-  title={Citations and Summaries},
-  author={Esposito, Robert},
-  year={2025},
-  publisher={R Studio Press}
-}
+    @book{esposito2025citations,
+      title={Citations and Summaries},
+      author={Esposito, Robert},
+      year={2025},
+      publisher={R Studio Press}
+    }
 
-your PDF file must be named esposito2025citations.pdf.
+your `.pdf` file must be named `esposito2025citations.pdf`.
 
 ## summaries
 
-All summaries are stored in the file summaries.txt. All summaries must be structured with a header, indicated by #, named after the citation/entry key e.g., esposito2025citations.
+All summaries are stored in the file `summaries.txt`. If you manually
+enter a summary into `summaries.txt`, it is obligatory to add the
+citation/entry key as a header with `#`:
 
-You can update summaries.txt outside of the app. You SHOULD NOT update the .txt files in all_summaries outside of the app. Changes to any .txt files in all_summaries will be rewritten from summaries.txt when you open app.
+    # esposito2025citations
+
+    Here is the summary of the selected article.
+
+If you add a summary through the litRev app, the citation/entry key,
+title, and author(s) will be automatically added:
+
+    # esposito2025citations
+    Title: Citations and Summaries
+    Author: Robert Esposito
+    Here is the summary of the selected article.
 
 ### all_summaries
 
-Stores individual .txt files of all summaries. You SHOULD NOT update these files, as any changes will be rewritten when you open the app.
+Stores individual `.txt` files of all summaries. You SHOULD NOT update
+these files. Changes to any `.txt` files in `all_summaries` will be
+rewritten from `summaries.txt` as soon as you open the app.
 
 ## keywords
 
-All keywords are stored in the file keywords.txt. All keywords must be structured with a header, indicated by #, named after the citation/entry key e.g., esposito2025citations.
+All keywords are stored in the file keywords.txt. Identical to
+`summaries.txt`, you may update `keywords.txt` outside of the app. You
+must include the citation/entry key as a header preceded by `#`.
+Keywords must be separated by commas.
 
-You can update keywords.txt outside of the app. You SHOULD NOT update the .txt files in all_keywords outside of the app. Changes to any .txt files in all_keywords will be rewritten from keywords.txt when you open app.
+    # esposito2025citations
+    here, are, some, keywords
 
-## Running litRev
+### all_keywords
 
-Open litRev.R from the main directory and run the two lines of code. The app will launch. You should not open this in your browser, as many of the functionalities will be lost.
+Stores individual `.txt` files of all keywords. You SHOULD NOT update
+these files. Changes to any `.txt` files in `all_keywords` will be
+rewritten from `keywords.txt` as soon as you open the app.
 
-### Home
+# Running litRev
 
-The Home page has four panels and is meant to be where you work most often.
+Open litRev.R from the main directory and run the two lines of code. The
+app will launch. You should not open this in your browser, as many of
+the functionalities will be lost.
 
-The top-left summary panel has a textbox to enter the summary for each reference, as well as add keywords.
+## Home
+
+The Home page has four panels and is meant to be where you work most
+often.
+
+The top-left summary panel has a textbox to enter the summary for each
+reference, as well as add keywords.
 
 The bottom-left panel filters the references.
 
-The top-left panel allows you to add BibTeX entries to a specified project.
+The top-left panel allows you to add BibTeX entries to a specified
+project.
 
-The bottom-right entry is your database of referneces. Click on the title of the reference to open the PDF. Click on a reference's row to open the summary and keywords in the top-left Summary panel.
+The bottom-right entry is your database of referneces. Click on the
+title of the reference to open the PDF. Click on a reference’s row to
+open the summary and keywords in the top-left Summary panel.
 
-### Summaries
+## Summaries
 
-This page lists all of your references and allows you to view, but not edit, the summaries for them. You can filter by project.
+This page lists all of your references and allows you to view, but not
+edit, the summaries for them. You can filter by project.
 
-### BibTeX Errors
+## BibTeX Errors
 
-If any BibTeX entries did not load into the program, you can view them here and what the issue is. If you click on a row, it will pull up the BibTeX entry, which you can then correct.
+If any BibTeX entries did not load into the program, you can view them
+here and what the issue is. If you click on a row, it will pull up the
+BibTeX entry, which you can then correct.
 
-### BibTeX Editor
+## BibTeX Editor
 
 You can use this page to update BibTeX entries.
 
-### Visualizations
+## Output
 
-Not yet functional. Will update in future.
+This page allows you to select a project and output a folder that will
+hold all files associated with the project. It will output a `.bib`
+file, a folder of `.pdf` files, and a `.txt` file of summaries.
 
 # Updating LitRev
 
-Place your pdf, BibTeX, summaries and keywords folders somewhere else (e.g., your desktop). Update LitRev repository. Replace your original folders into the updated repo.
+Place your `pdfs`, `bibtex`, `summaries` and `keywords` folders
+somewhere else (e.g., your desktop). Update litRev repository. Replace
+your original folders into the updated repo.
 
-# Future goals
+## Basic organization
 
-- Think of nice visualizations for the visualization panel.
-- Try to add functionalities from something like rscopus, R-citations.
-- Add functionality to add projects from the GUI.
+    .
+    ├── bibtex
+    ├── keywords
+    ├── litRev.R
+    ├── litRev.Rproj
+    ├── pdfs
+    ├── r
+    ├── readme.md
+    ├── readme.Rmd
+    └── summaries
+
+    r
+    ├── 00_libs.R
+    ├── 01_functions.R
+    ├── 02_load_data.R
+    ├── app.R
+    ├── modules
+    │   ├── bibtex_editor_page
+    │   │   ├── bibtex_editor_page_server.R
+    │   │   └── bibtex_editor_page_ui.R
+    │   ├── bibtex_errors_page
+    │   │   ├── bibtex_errors_page_server.R
+    │   │   └── bibtex_errors_page_ui.R
+    │   ├── home_page
+    │   │   ├── home_page_server.R
+    │   │   └── home_page_ui.R
+    │   ├── output_page
+    │   │   ├── output_page_server.R
+    │   │   └── output_page_ui.R
+    │   └── summaries_page
+    │       ├── summaries_page_server.R
+    │       └── summaries_page_ui.R
+    └── www
+        ├── custom.css
+        ├── custom.js
+        └── styles.css

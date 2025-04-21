@@ -28,7 +28,7 @@ ui <- dashboardPage(
       menuItem("Summaries", tabName = "summaries", icon = icon("file-alt")),
       menuItem("BibTeX Errors", tabName = "bibtex_errors", icon = icon("exclamation-triangle")),
       menuItem("BibTeX Editor", tabName = "bibtex_editor", icon = icon("edit")),
-      menuItem("Output", tabName = "output_page", icon = icon("folder"))
+      menuItem("Output Project", tabName = "output_page", icon = icon("folder"))
     )
   ),
   dashboardBody(
